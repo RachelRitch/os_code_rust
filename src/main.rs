@@ -1,5 +1,7 @@
 #![no_std] // do not link the Rust standard library
 #![no_main] // disable all Rust-level entry points
+#![feature(asm)]
+
 
 use core::panic::PanicInfo;
 
